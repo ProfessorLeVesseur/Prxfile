@@ -35,7 +35,7 @@ st.write('''
 # Cheyne LeVesseur :grey[PhD]
 ''')
 
-image = Image.open('Profile.png')
+image = Image.open('ProfilePic2.png')
 st.image(image, width=350)
 
 #------------------------------------------------------------------------
