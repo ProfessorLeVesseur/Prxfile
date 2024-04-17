@@ -412,6 +412,7 @@ st.markdown('''
 ## Connect
 ''')
 
+# Start with your email (2nd line of code), a reply will provide a random-like string to replace so your email is not visible <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
 st.markdown("""
 <div class="container">
 
