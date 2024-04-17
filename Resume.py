@@ -7,7 +7,7 @@ import random
 
 
 # Streamlit page setup
-icon = Image.open("/Users/cheynelevesseur/Desktop/Python_Code/Resume_Profile/MTSS.ai_Icon.png")
+icon = Image.open("MTSS.ai_Icon.png")
 st.set_page_config(
     page_title="LeVesseur | Profile", 
     page_icon=icon,
@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 # with open("style.css") as f:
-with open("/Users/cheynelevesseur/Desktop/Python_Code/Resume_Profile/style.css") as f:
+with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #------------------------------------------------------------------------
@@ -35,8 +35,7 @@ st.write('''
 # Cheyne LeVesseur :grey[PhD]
 ''')
 
-# image = Image.open('Profile.png')
-image = Image.open('/Users/cheynelevesseur/Desktop/Python_Code/Resume_Profile/Profile.png')
+image = Image.open('Profile.png')
 st.image(image, width=350)
 
 #------------------------------------------------------------------------
@@ -118,7 +117,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 #------------------------------------------------------------------------
-# Function for columns / text layout
+# Function for columns/text layout
 #------------------------------------------------------------------------
 
 # def txt(a, b):
@@ -181,7 +180,7 @@ st.markdown('''
 ## Projects
 ''')
 
-st.success('- [MTSS.ai | AI Technical Assistance](http://www.MTSS.ai)') 
+# st.success('- [MTSS.ai | AI Technical Assistance](http://www.MTSS.ai)') 
 st.success('- [InkQA | Resource AI RAG Applications](http://www.inkqa.com)')
 st.success('- [Stxtement | Alt Text + Images](http://www.stxtement.com)')
 st.success('- [MTSS GPT | Conversational AI Language Model](https://mtssgpt-6204cd3bf5a6.herokuapp.com/)')
