@@ -35,8 +35,13 @@ st.write('''
 # Cheyne LeVesseur :grey[PhD]
 ''')
 
-# image = Image.open('ProfilePic2.png')
+# Profile Image
+# image = Image.open('/Users/cheynelevesseur/Desktop/Python_Code/Resume_Profile/ProfilePic2.png')
 # st.image(image, width=350)
+
+col1, col2, col3 = st.columns([1,1,1])
+with col2:
+    st.image("ProfilePic.png", use_column_width=True)
 
 #------------------------------------------------------------------------
 # LLM
