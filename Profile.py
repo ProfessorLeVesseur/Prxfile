@@ -5,6 +5,20 @@ import streamlit as st
 from PIL import Image
 import random
 
+# Add Google Analytics tracking code
+ga_tracking_code = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6TBWRFKS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZE6TBWRFKS');
+</script>
+"""
+# Add the tracking code to the Streamlit app
+st.markdown(ga_tracking_code, unsafe_allow_html=True)
 
 # Streamlit page setup
 icon = Image.open("MTSS.ai_Icon.png")
