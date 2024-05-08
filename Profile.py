@@ -6,7 +6,7 @@ from PIL import Image
 import random
 
 
--------
+#-------
 import logging
 import shutil
 import pathlib
@@ -42,7 +42,7 @@ def add_analytics_tag():
 
 # Call the function to add the analytics tag
 add_analytics_tag()
--------
+#-------
 
 # Streamlit page setup
 icon = Image.open("MTSS.ai_Icon.png")
