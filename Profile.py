@@ -5,43 +5,17 @@ import streamlit as st
 from PIL import Image
 import random
 
-# Add Google Analytics tracking code
-ga_tracking_code = """
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZE6TBWRFKS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZE6TBWRFKS');
-</script>
-"""
-# Add the tracking code to the Streamlit app
-with st.head():
-    st.markdown(ga_tracking_code, unsafe_allow_html=True)
-    st.set_page_config(
-        page_title="LeVesseur | Profile", 
-        page_icon=icon,
-        layout="centered", 
-        initial_sidebar_state="auto",
-        menu_items={
-            'About': "### *This application was created by*  \n### LeVesseur Ph.D | MTSS.ai"
-        }
-    )
-
-
-# # Streamlit page setup
-# icon = Image.open("MTSS.ai_Icon.png")
-# st.set_page_config(
-#     page_title="LeVesseur | Profile", 
-#     page_icon=icon,
-#     layout="centered", 
-#     initial_sidebar_state="auto",
-#     menu_items={
-#         'About': "### *This application was created by*  \n### LeVesseur Ph.D | MTSS.ai"
-#     }
-# )
+# Streamlit page setup
+icon = Image.open("MTSS.ai_Icon.png")
+st.set_page_config(
+    page_title="LeVesseur | Profile", 
+    page_icon=icon,
+    layout="centered", 
+    initial_sidebar_state="auto",
+    menu_items={
+        'About': "### *This application was created by*  \n### LeVesseur Ph.D | MTSS.ai"
+    }
+)
 
 # with open("style.css") as f:
 with open("style.css") as f:
