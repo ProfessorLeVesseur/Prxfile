@@ -457,12 +457,12 @@ st.markdown('''
 ## Connect
 ''')
 
-txt2(" ", " ")
 txt2('LinkedIn', 'https://www.linkedin.com/in/levesseur/')
 txt2('GitHub', 'https://github.com/ProfessorLeVesseur/')
 txt2('Hugging Face', 'https://huggingface.co/ProfessorLeVesseur')
 txt2('ORCID', 'https://orcid.org/0009-0007-9274-0426')
 txt2('ResearchGate', 'https://www.researchgate.net/profile/Cheyne-Levesseur')
+txt2(" ", " ")
 
 # Start with your email (2nd line of code), a reply will provide a random-like string to replace so your email is not visible <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
 st.markdown("""
