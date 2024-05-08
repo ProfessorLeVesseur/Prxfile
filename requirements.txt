@@ -6,3 +6,4 @@ langchain-openai==0.0.5
 langchain-community==0.0.20
 pypdf==3.16.4
 chromadb==0.4.24
+beautifulsoup4==4.12.2
