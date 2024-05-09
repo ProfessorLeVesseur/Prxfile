@@ -227,6 +227,7 @@ st.markdown('''
 st.success('- [InkQA | Resource AI RAG Applications](http://www.inkqa.com)')
 st.success('- [Stxtement | Alt Text + Images](http://www.stxtement.com)')
 st.success('- [MTSS Map Maker | ISD District PSA](https://mtssmaps-4320d9f0e6fd.herokuapp.com)')
+st.success('- [Prxmpting | Prompt Engineering](https://huggingface.co/spaces/ProfessorLeVesseur/Prxmpting)')
 st.success('- [MTSS GPT | Conversational AI Language Model](https://mtssgpt-6204cd3bf5a6.herokuapp.com/)')
     
 #------------------------------------------------------------------------
