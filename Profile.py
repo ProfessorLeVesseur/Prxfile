@@ -583,7 +583,11 @@ st.markdown('''
 txt3('Programming', '`Python`, `SAS`')
 txt3('Data Analysis Software', '`Qualtrics`, '`SPSS`, `Excel`')
 txt3('Data processing/wrangling', '`pandas`, `numpy`')
-txt3('Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics`, `Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`, `Experimental Design`')
+txt3('Foundational Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics (including Hypothesis Testing)`')
+txt3('Advanced Statistical Methods', '`Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`')
+txt3('Quantitative Research Methodology', '`Survey Design and Validation`, `Experimental and Quasi-experimental Design`, `Sampling and Power Analysis`')
+txt3('Qualitative Data Analysis', '`Participants Recruitment`, `Focus Groups`, `In-depth Interviews`, `Cognitive Interviews`, `Phenomenological Research Design`')
+txt3('Program Evaluation', '`Design of Logic Models and Rubrics`, `Goals and Outcomes`, `Data Collection Plan`, `Data Analysis Plan`, `Variable, Indicators, and Metrics Operationalization`, `Theory of Change`, `Stakeholders' Relations Management`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `folium`')
 txt3('Artificial Intelligence (AI)', '`Langchain`, `AI APIs`')
 txt3('Machine Learning', '`scikit-learn`')
@@ -591,28 +595,6 @@ txt3('Machine Learning', '`scikit-learn`')
 txt3('DevOps', '`Git`, `GitHub`')
 txt3('Web development', '`HTML`, `CSS`')
 txt3('Model deployment', '`streamlit`, `Heroku`, `Hugging Face`')
-
-
-
-Quantitative Research
-• Survey research
-• Experimental and quasi-experimental design: one factor between, within, mixed, factorial.
-• Sampling and power analysis.
-
-
-Qualitative Data Analysis
-• Phenomenological research design
-• Focus groups
-• In-depth interviews
-• Participants recruitment
-• NVivo
-
-Program Evaluation
-• Design of Logic Models and Rubrics
-• Culturally Responsive and Equity Evaluation
-• Variable, indicators, and metrics operationalization
-• Theory of Change using Log Frames
-• Stakeholders' relations management
 
 
 #------------------------------------------------------------------------
