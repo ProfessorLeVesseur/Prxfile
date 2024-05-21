@@ -581,14 +581,38 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `SAS`')
-txt3('DevOps', '`Git`, `GitHub`')
+txt3('Data Analysis Software', '`Qualtrics`, '`SPSS`, `Excel`')
 txt3('Data processing/wrangling', '`pandas`, `numpy`')
+txt3('Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics`, `Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`, `Experimental Design`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `folium`')
 txt3('Artificial Intelligence (AI)', '`Langchain`, `AI APIs`')
 txt3('Machine Learning', '`scikit-learn`')
 # txt3('Deep Learning', '`TensorFlow`')
+txt3('DevOps', '`Git`, `GitHub`')
 txt3('Web development', '`HTML`, `CSS`')
 txt3('Model deployment', '`streamlit`, `Heroku`, `Hugging Face`')
+
+
+
+Quantitative Research
+• Survey research
+• Experimental and quasi-experimental design: one factor between, within, mixed, factorial.
+• Sampling and power analysis.
+
+
+Qualitative Data Analysis
+• Phenomenological research design
+• Focus groups
+• In-depth interviews
+• Participants recruitment
+• NVivo
+
+Program Evaluation
+• Design of Logic Models and Rubrics
+• Culturally Responsive and Equity Evaluation
+• Variable, indicators, and metrics operationalization
+• Theory of Change using Log Frames
+• Stakeholders' relations management
 
 
 #------------------------------------------------------------------------
