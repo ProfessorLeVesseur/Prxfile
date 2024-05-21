@@ -581,7 +581,7 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `SAS`')
-txt3('Analysis Software', '`Qualtrics`, '`SPSS`, `Excel`')
+txt3('Analysis Software', '`Qualtrics`, `SPSS`, `Excel`')
 txt3('Data processing', '`pandas`, `numpy`')
 txt3('Foundational Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics and Hypothesis Testing)`')
 txt3('Advanced Statistical Methods', '`Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`')
