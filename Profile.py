@@ -588,7 +588,7 @@ txt3('Advanced Statistical Methods', '`Multivariate Analysis`, `Regression Analy
 txt3('Quantitative Research Methodology', '`Survey Design and Validation`, `Experimental and Quasi-experimental Design`, `Sampling and Power Analysis`')
 txt3('Qualitative Data Analysis', '`Participants Recruitment`, `Focus Groups`, `In-depth Interviews`, `Cognitive Interviews`, `Phenomenological Research Design`')
 txt3('Natural Language Processing', '`Sentiment Analysis/NLTK`, `Part of Speech/SciPy`, `Emotion Classification/Transformers`')
-txt3('Program Evaluation', '`Design of Logic Models and Rubrics`, `Goals and Outcomes Plan`, `Data Collection Plan`, `Data Analysis Plan`, `Stakeholders' Relations`')
+txt3('Program Evaluation', '`Design of Logic Models and Rubrics`, `Goals and Outcomes Plan`, `Data Collection Plan`, `Data Analysis Plan`, `Stakeholders Relations`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `folium`, `Evergreen Academy`')
 txt3('Artificial Intelligence (AI)', '`Langchain`, `AI APIs`')
 txt3('Machine Learning', '`scikit-learn`')
