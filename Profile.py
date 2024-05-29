@@ -284,6 +284,9 @@ st.markdown("""
         <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       </li>
       <li class="nav-item">
@@ -291,9 +294,6 @@ st.markdown("""
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#scholarship">Scholarship</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#connect">Connect</a>
@@ -378,6 +378,47 @@ st.success('- [Stxtement | Alt Text + Images](http://www.stxtement.com)')
 st.success('- [MTSS Map Maker | ISD District PSA](https://mtssmaps-4320d9f0e6fd.herokuapp.com)')
 st.success('- [Prxmpting | Prompt Engineering](https://huggingface.co/spaces/ProfessorLeVesseur/Prxmpting)')
 st.success('- [MTSS GPT | Conversational AI Language Model](https://mtssgpt-6204cd3bf5a6.herokuapp.com/)')
+
+
+#------------------------------------------------------------------------
+# Skills
+#------------------------------------------------------------------------
+
+##################### White space for navigation bar
+st.markdown('''
+<style>
+.white-text {
+    color: white;
+}
+</style>
+
+<div class="white-text">
+
+## Skills
+
+</div>
+''', unsafe_allow_html=True)
+#####################
+
+st.markdown('''
+## Skills
+''')
+txt3('Program Evaluation', '`Design of Logic Models and Rubrics`, `Goals and Outcomes Plan`, `Data Collection Plan`, `Data Analysis Plan`, `Stakeholders Relations`')
+txt3('Quantitative Research Methodology', '`Survey Design and Validation`, `Experimental and Quasi-experimental Design`, `Sampling and Power Analysis`')
+txt3('Foundational Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics and Hypothesis Testing`')
+txt3('Advanced Statistics', '`Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`')
+txt3('Qualitative Data Analysis', '`Participants Recruitment`, `Focus Groups`, `In-depth Interviews`, `Cognitive Interviews`, `Phenomenological Research Design`')
+txt3('Programming', '`Python`, `SAS`')
+txt3('Analysis Software', '`Qualtrics`, `Google Analytics`, `Excel`')
+txt3('Data processing', '`pandas`, `numpy`')
+txt3('Natural Language Processing', '`Sentiment Analysis/NLTK`, `Part of Speech/SciPy`, `Emotion Classification/Transformers`')
+txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `folium`, `Evergreen Academy`')
+txt3('Artificial Intelligence (AI)', '`Langchain`, `AI APIs`, `Pinecone`')
+txt3('Machine Learning', '`scikit-learn`')
+# txt3('Deep Learning', '`TensorFlow`')
+txt3('DevOps', '`Git`, `GitHub`')
+txt3('Web development', '`HTML`')
+txt3('Model deployment', '`Streamlit`, `Heroku`, `Hugging Face`')
 
 
 #------------------------------------------------------------------------
@@ -555,47 +596,6 @@ txt4('2021', '[**LeVesseur, C.**] MiMTSS Technical Assistance Center (2021). *Mi
 txt4('2015', 'Russell, C., Ward, c., Harms, A., St. Martin, K., Cusumano, D., Fixsen, D., Levy, R., & **LeVesseur, C.** (2015). *District Capacity Assessment Technical Manual.* National Implementation Research Network, University of North Carolina at Chapel Hill.', 'https://files.eric.ed.gov/fulltext/ED606132.pdf')
 txt4('2015', '**LeVesseur, C.**, (2015) *Implementing Universal Social and Emotional Learning Programs: The Development, Validation, and Inferential Findings from the Schoolwide SEL Capacity Assessment.* Doctoral Dissertations', 'https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1459&context=dissertations_2')
 txt4('2013', 'Whitcomb, S.A., & **LeVesseur, C.** (2012). *Promoting student strengths and assets.* In. S.E. Brock, P.J. Lazarus, & S.R. Jimerson (Eds.), Best practices in crisis prevention and intervention (2nd edition), (pp. 97-114). Bethesda, MD: National Association of School Psychologists.', 'https://www.nasponline.org/books-and-products/products/books/titles/best-practices-in-school-crisis-prevention-and-intervention')
-
-
-#------------------------------------------------------------------------
-# Skills
-#------------------------------------------------------------------------
-
-##################### White space for navigation bar
-st.markdown('''
-<style>
-.white-text {
-    color: white;
-}
-</style>
-
-<div class="white-text">
-
-## Skills
-
-</div>
-''', unsafe_allow_html=True)
-#####################
-
-st.markdown('''
-## Skills
-''')
-txt3('Programming', '`Python`, `SAS`')
-txt3('Analysis Software', '`Qualtrics`, `SPSS`, `Excel`')
-txt3('Data processing', '`pandas`, `numpy`')
-txt3('Foundational Statistics', '`Descriptive Statistics`, `Probability Theory`, `Inferential Statistics and Hypothesis Testing)`')
-txt3('Advanced Statistical Methods', '`Multivariate Analysis`, `Regression Analysis`, `Time Series Analysis`, `Non-parametric Methods`')
-txt3('Quantitative Research Methodology', '`Survey Design and Validation`, `Experimental and Quasi-experimental Design`, `Sampling and Power Analysis`')
-txt3('Qualitative Data Analysis', '`Participants Recruitment`, `Focus Groups`, `In-depth Interviews`, `Cognitive Interviews`, `Phenomenological Research Design`')
-txt3('Natural Language Processing', '`Sentiment Analysis/NLTK`, `Part of Speech/SciPy`, `Emotion Classification/Transformers`')
-txt3('Program Evaluation', '`Design of Logic Models and Rubrics`, `Goals and Outcomes Plan`, `Data Collection Plan`, `Data Analysis Plan`, `Stakeholders Relations`')
-txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `folium`, `Evergreen Academy`')
-txt3('Artificial Intelligence (AI)', '`Langchain`, `AI APIs`')
-txt3('Machine Learning', '`scikit-learn`')
-# txt3('Deep Learning', '`TensorFlow`')
-txt3('DevOps', '`Git`, `GitHub`')
-txt3('Web development', '`HTML`, `CSS`')
-txt3('Model deployment', '`Streamlit`, `Heroku`, `Hugging Face`')
 
 #------------------------------------------------------------------------
 # Connect
