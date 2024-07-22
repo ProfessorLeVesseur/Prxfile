@@ -373,6 +373,7 @@ st.markdown('''
 ''')
 
 # st.success('- [MTSS.ai | AI Technical Assistance](http://www.MTSS.ai)') 
+st.success('- [MiMTSS Copilot | Conversational Al RAG Application](https://mtss.ai/copilot)') 
 st.success('- [InkQA | Resource AI RAG Applications](http://www.inkqa.com)')
 st.success('- [Stxtement | Alt Text + Images](http://www.stxtement.com)')
 st.success('- [MTSS Map Maker | ISD District PSA](https://mtssmaps-4320d9f0e6fd.herokuapp.com)')
