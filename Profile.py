@@ -373,13 +373,12 @@ st.markdown('''
 ''')
 
 # st.success('- [MTSS.ai | AI Technical Assistance](http://www.MTSS.ai)') 
-st.success('- [MiMTSS Copilot | Conversational Al RAG Application](https://mtss.ai/copilot)') 
-st.success('- [InkQA | Resource AI RAG Applications](http://www.inkqa.com)')
-st.success('- [Stxtement | Alt Text + Images](http://www.stxtement.com)')
+st.success('- [MTSS Copilot | Conversational Al RAG Application](https://mtss.ai/copilot)') 
+st.success('- [MTSS Illustrator | Images + Alt Text Generator](https://mtss.ai/illustrator)')
 st.success('- [MTSS Map Maker | ISD District PSA](https://mtssmaps-4320d9f0e6fd.herokuapp.com)')
-st.success('- [Prxmpting | Prompt Engineering](https://huggingface.co/spaces/ProfessorLeVesseur/Prxmpting)')
-st.success('- [MTSS GPT | Conversational AI Language Model](https://mtssgpt-6204cd3bf5a6.herokuapp.com/)')
-
+st.success('- [Prxmpting | Basic Prompt Engineering](https://huggingface.co/spaces/ProfessorLeVesseur/Prxmpting)')
+st.success('- [PromptSmith | Advanced Prompt Engineering](https://huggingface.co/spaces/ProfessorLeVesseur/PromptCraft)')
+st.success('- [Kaleidoscope | Text Annotation](https://huggingface.co/spaces/ProfessorLeVesseur/Kaleidoscope)')
 
 #------------------------------------------------------------------------
 # Skills
