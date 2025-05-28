@@ -373,7 +373,7 @@ st.markdown('''
 ''')
 
 # st.success('- [MTSS.ai | AI Technical Assistance](http://www.MTSS.ai)') 
-st.success('- [Predict English Tense | Text Classification Transformer: Past, Present, or Future](https://huggingface.co/spaces/ProfessorLeVesseur/Prxmpting)')
+st.success('- [Predict English Tense | Text Classification Transformer: Past, Present, or Future](https://huggingface.co/ProfessorLeVesseur/bert-base-cased-timeframe-classifier)')
 st.success('- [Regional Managing Director AI Agent | Conversational Al RAG Application](https://www.stack-ai.com/chat/68360c44fa7e4611a9e59036-5AaAYJsi6yasy9Rvx964DF)') 
 st.success('- [MTSS Map Maker | ISD District PSA](https://mtssmaps-4320d9f0e6fd.herokuapp.com)')
 
